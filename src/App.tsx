@@ -1,5 +1,6 @@
 import { SectionWrapper, Download, Button, Features } from "./components";
 import assets from "./assets";
+import styles from "./styles/Global";
 
 const App = () => {
   return (
@@ -40,6 +41,11 @@ const App = () => {
         banner="banner02"
       />
       <Download />
+      <footer className="px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04">
+        <p className={`${styles.pText} ${styles.whiteText}`}>
+          Made with love by <span className="bold">Davi</span>
+        </p>
+      </footer>
     </>
   );
 };

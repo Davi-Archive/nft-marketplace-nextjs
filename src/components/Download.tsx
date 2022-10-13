@@ -22,6 +22,15 @@ const Download = () => {
         <button className={`${styles.btnPrimary}`} onClick={handleClick}>
           Source Code
         </button>
+        <div className={styles.flexCenter}>
+          <picture>
+            <img
+              src={assets.scene}
+              alt="download.png"
+              className={styles.fullImg}
+            />
+          </picture>
+        </div>
       </div>
     </section>
   );
