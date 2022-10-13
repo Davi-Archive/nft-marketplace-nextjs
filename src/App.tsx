@@ -11,8 +11,17 @@ const App = () => {
         showBtn
         mockupImg={assets.homeHero}
         banner="banner"
-        reverse={true}
       />
+
+      <SectionWrapper
+        title="Smart User Interface Marketplace."
+        description="Experience a buttery UI of ProNef Marketplace.
+        Smooth constant colors of a fluent UI design."
+        mockupImg={assets.homeCards}
+        reverse
+      />
+
+      <Features />
     </>
   );
 };
