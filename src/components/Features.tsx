@@ -19,7 +19,7 @@ const FeatureCard = ({ iconUrl, iconText }: FeatureCardProp) => {
 
 const Features = () => {
   return (
-    <div className={`${styles.section} ${styles.bgPrimary} banner03`}>
+    <section className={`${styles.section} ${styles.bgPrimary} banner03`}>
       <div className={`${styles.subSection} flex-col text-center`}>
         <div>
           <h1 className={`${styles.h1Text} ${styles.whiteText}`}>
@@ -36,7 +36,7 @@ const Features = () => {
           <FeatureCard iconUrl={assets.javascript} iconText="Javascript" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
