@@ -1,3 +1,5 @@
+import { SectionWrapper, Download, Button, Features } from "./components";
+
 const App = () => {
   return (
     <div className="App">
